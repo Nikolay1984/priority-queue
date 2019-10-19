@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "mocha -r ./test/setup-mocha.js",
-		"start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+	  "qq": " node ./src/max-heap.js"
   },
   "author": "",
   "license": "ISC",

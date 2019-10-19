@@ -160,9 +160,9 @@ describe('MaxHeap', () => {
 
 		it('maintants parentNodes in correct state', () => {
 			const correctParentNodesOrderAfterShiftUp = [
-				h.root,
-				h.root.right,
-				h.root.left
+				h.root,//10
+				h.root.right,//7
+				h.root.left//5
 			]
 
 			h.shiftNodeUp(h.root.left.left);
